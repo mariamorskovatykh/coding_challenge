@@ -18,6 +18,7 @@ The random forest model achieved the best results, with a recall score of 0.94, 
 ## Limitations
 
 The SMOTE technique used to balance the target classes may cause overfitting. It is important to be cautious when using SMOTE and to try other techniques such as undersampling the majority class and oversampling the minority class.
+
 One potential limitation of the model is that it may not be fully optimized. There is still room for improvement and it may be necessary to continue to fine-tune the model in order to increase its accuracy and performance. Further optimization may involve adjusting hyperparameters, using different techniques for feature selection and preprocessing, and exploring alternative algorithms. It is important to continually assess the model and make updates as necessary in order to achieve the best results.
 
 ## Future Work
