@@ -2,14 +2,15 @@
 
 ## Introduction
 
-This project is aimed at modeling customer affinity for HUK-Coburg. The goal of this project is to predict which customers are most likely to be interested in purchasing a new insurance policy. The results of this project can help the insurance company to focus their marketing efforts and resources on the customers who are most likely to buy, thereby increasing their conversion rate and overall revenue.
+This project is aimed at modeling customer affinity for car insurance. The goal of this project is to predict which customers are most likely to be interested in purchasing a new insurance policy. The results of this project can help the insurance company to focus their marketing efforts and resources on the customers who are most likely to buy, thereby increasing their conversion rate and overall revenue.
 
 ## Data
 
-The dataset used for this project is a binary classification problem and contains information about customers, such as age, car age, and the presence of damage to the car. The target variable indicates whether the customer is interested in purchasing a new insurance policy or not.
-Methodology
+The dataset used for this project contains information about customers, such as age, car age, the presence of damage to the car, etc. The target variable indicates whether the customer is interested in purchasing a new insurance policy or not.
 
-Three machine learning algorithms were trained for this project: logistic regression, random forest, and SDGClassifier. The performance of each model was evaluated using the precision, recall, and F1-score metrics. The weighted average was also taken into consideration.
+## Methodology
+
+Modelling customer affinity is a binary classification problem. Three machine learning algorithms were trained for this project: logistic regression, random forest, and SDGClassifier. The performance of each model was evaluated using the precision, recall, and F1-score metrics. The weighted average was also taken into consideration.
 
 ## Results
 
@@ -26,4 +27,4 @@ One potential limitation of the model is that it may not be fully optimized. The
 There is potential for further fine-tuning of the models. Additionally, other algorithms such as SVM or K-nearest neighbors could also be explored.
 ## Conclusion
 
-This project demonstrates the use of machine learning algorithms for predicting customer affinity for HUK-Coburg. The results of the random forest model show that it is possible to accurately predict which customers are most likely to be interested in purchasing a new insurance policy. This information can help the company to focus their marketing efforts and resources on the customers who are most likely to buy, thereby increasing their conversion rate and overall revenue.
+This project demonstrates the use of machine learning algorithms for predicting customer affinity. The results of the random forest model show that it is possible to accurately predict which customers are most likely to be interested in purchasing a new insurance policy. This information can help the company to focus their marketing efforts and resources on the customers who are most likely to buy, thereby increasing their conversion rate and overall revenue.
