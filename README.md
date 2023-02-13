@@ -28,3 +28,36 @@ There is potential for further fine-tuning of the models. Additionally, other al
 ## Conclusion
 
 This project demonstrates the use of machine learning algorithms for predicting customer affinity. The results of the random forest model show that it is possible to accurately predict which customers are most likely to be interested in purchasing a new insurance policy. This information can help the company to focus their marketing efforts and resources on the customers who are most likely to buy, thereby increasing their conversion rate and overall revenue.
+
+_________________________________________________________________________________________________________________________________________
+
+# Modellierung der Kundenaffinität
+## Einführung
+
+Dieses Projekt zielt darauf ab, die Kundenaffinität für Kfz-Versicherungen zu modellieren. Ziel dieses Projekts ist es, ein Machine Learning Modell zu entwickeln, das die Kundenaffinität vorhersagen kann. Das Verständnis der Kundenaffinität ist für Unternehmen wichtig, da es hilft, die wertvollsten Kunden zu identifizieren und Strategien zu entwickeln, um ähnliche Kunden zu halten und anzuziehen.
+
+## Daten
+
+Der Datensatz enthält Informationen über Kunden, wie z. B. Alter, Alter von Fahrzeug, Vorschaden usw. Die Zielvariable gibt an, ob die Kunden Intesesse am Angebot haben.
+
+## Methodik
+
+Die Modellierung der Kundenaffinität ist ein binäres Klassifikationsproblem. Für dieses Projekt wurden drei Machine Learning Modelle trainiert: logistische Regression, Random Forest und SDGClassifier. Die Leistung jedes Modells wurde anhand der Metriken Recall, Precision und F1-Score bewertet.
+
+## Ergebnisse
+
+Das Random-Forest-Modell erzielte die besten Ergebnisse mit einem Recall-Score von 0,94, einem Precision-Score von 0,77 und einem gewichteten Durchschnitt von 0,85. Dieses Modell wurde als endgültiges Modell für dieses Projekt ausgewählt.
+
+## Einschränkungen
+
+Die SMOTE-Technik kann zu einer Overfitting führen. Es ist wichtig, bei der Verwendung von SMOTE vorsichtig zu sein und andere Techniken auszuprobieren, z. B. gleichzeitige Undersampling der Mehrheitsklasse und Oversampling der Minderheitsklasse.
+
+Eine mögliche Einschränkung des Modells besteht darin, dass es möglicherweise nicht vollständig optimiert ist. Es gibt noch Raum für Verbesserungen, und es kann notwendig sein, das Modell weiter zu verfeinern, um seine Leistung zu erhöhen. 
+
+## Zukünftige Arbeit
+
+Es besteht Potenzial für eine weitere Feinabstimmung der Modelle. Darüber hinaus könnten auch andere Algorithmen wie SVM oder K-nächste Nachbarn untersucht werden.
+
+## Abschluss
+
+Dieses Projekt demonstriert die Verwendung von Machine Learning Algorithmen zur Vorhersage der Kundenaffinität. Die Ergebnisse des Random-Forest-Modells zeigen, dass es möglich ist, genau vorherzusagen, welche Kunden am wahrscheinlichsten am Kauf einer neuen Versicherung interessiert sind. Diese Informationen können dem Unternehmen helfen, seine Marketingbemühungen und -ressourcen auf die Kunden zu konzentrieren, die am ehesten kaufen werden, wodurch seine Konversionsrate und sein Gesamtumsatz gesteigert werden.
