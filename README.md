@@ -24,7 +24,8 @@ One potential limitation of the model is that it may not be fully optimized. The
 
 ## Future Work
 
-There is potential for further fine-tuning of the models. Additionally, other algorithms such as SVM or K-nearest neighbors could also be explored.
+There is potential for further fine-tuning of the models. Additionally, other algorithms such as SVM or K-nearest neighbors could also be applied for predicting customer activity.
+
 ## Conclusion
 
 This project demonstrates the use of machine learning algorithms for predicting customer affinity. The results of the random forest model show that it is possible to accurately predict which customers are most likely to be interested in purchasing a new insurance policy. This information can help the company to focus their marketing efforts and resources on the customers who are most likely to buy, thereby increasing their conversion rate and overall revenue.
