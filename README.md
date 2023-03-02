@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is aimed at modeling customer affinity for car insurance. The goal of this project is to predict which customers are most likely to be interested in purchasing a new insurance policy. The results of this project can help the insurance company to focus their marketing efforts and resources on the customers who are most likely to buy, thereby increasing their conversion rate and overall revenue.
+This project is aimed at modeling customer affinity for car insurance. The goal of this project is to predict which customers are most likely to be interested in purchasing a new insurance policy. The results of this project can help the insurance company to focus their marketing efforts and resources on the customers who are most likely to buy insurance policy, thereby increasing their conversion rate and overall revenue.
 
 ## Data
 
